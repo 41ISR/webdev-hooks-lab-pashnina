@@ -5,6 +5,7 @@ const BookList = () => {
         <div className="book-list" id="bookList">
             
             <BookItem />
+            {/* передать сетбукс и тд */}
             
         </div>
     )

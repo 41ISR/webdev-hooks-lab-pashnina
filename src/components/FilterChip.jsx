@@ -1,4 +1,4 @@
-const FilterChip = () => {
+const FilterChip = ({showOnlyUnread, setShowOnlyUnread}) => {
     return(
         <div className="filter-chip">
               <input type="checkbox" id="filterCheckbox" />

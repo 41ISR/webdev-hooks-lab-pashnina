@@ -1,6 +1,6 @@
-const Input = () => {
+const Input = ({className, ...rest} ) => {
     return(
-        <input className="input" id="bookInput" placeholder="Название книги..." />
+        <input className={`input grow${` `+ className}`} {...rest} />
     )
 }
 export default Input

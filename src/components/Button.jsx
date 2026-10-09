@@ -1,7 +1,7 @@
-const Button = () => {
+const Button = ({children, className, ...rest}) => {
     return(
-        <button className="btn" id="addBtn">
-              Добавить на полку
+        <button {...rest} className={`btn` + ' '+ className} id="addBtn">
+              {children}
             </button>
     )
 }
